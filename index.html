@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masum Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="Poppins-Bold.ttf"/>
+    <style>
+     *{
+       margin:0;
+       padding:0;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       box-sizing: border-box;
+}
+     body{
+        /* background-color: #0818A8; */
+        background-color: rgb(0, 0, 33);
+        color:white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        /* background-color: whitesmoke; */
+
+     }
+     nav{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        height:80px;
+        background-color:rgb(18,18,62) ;
+        color:white;
+     }
+     nav ul{
+        display: flex;
+        justify-content:center;
+
+     }
+     nav ul li{
+        list-style: none;
+        margin:0 23px;
+        color:white;
+     }
+
+     nav ul li a{
+        color:white;
+        text-decoration: none;
+     }
+
+     nav ul li a:hover{
+        color:white;
+        font-size: 1.01rem;
+        text-decoration: none;
+     }
+
+     .left{
+        font-size:1.5rem;
+
+     }
+     .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin:110px 0;
+
+     }
+     .firstSection > div{
+        width:30%;
+     }
+     .leftSection{
+        /* background-color: red; */
+        /* width:50px; */
+        margin:30px 0;
+        font-size: 3rem;
+
+     }
+     .leftSection .buttons{
+        padding: 50px 0;
+     }
+     .leftSection .btn{
+        padding: 12px;
+        background: #1e2167;
+        color:white;
+        border :2px solid white;
+        border-radius: 11px;
+        font-size: 20px;
+        cursor:pointer;
+
+
+     }
+     .rightSection{
+        /* background-color: red; */
+        /* width:50px; */
+     }
+     .purple{
+        color:blueviolet;
+     }
+
+     #element{
+        color:blueviolet;
+    }
+    .secondSection{
+        max-width:80vw;
+        margin:auto;
+        height:80vh;
+        /* justify-content: center; */
+    }
+    .secondSection h1,.thirdSection h1{
+        font-size: 1.9rem;
+    }
+    .secondSection .box{
+        margin:56px 0;
+        background:whitesmoke ;
+        width:80vw;
+        height: 2px;
+        display: flex;
+    }
+    .secondSection .vertical{
+        height:64px;
+        width:1px;
+        background-color:whitesmoke;
+        margin:0 250px;
+    }
+    .image-top{
+        width:23px;
+        position:relative;
+        top:-32px;
+        left:-9px;
+
+    }
+    .vertical-text{
+        position: relative;
+        top:65px;
+        width:370px;
+        font-size: 35px;
+        /* margin-left: 70px; */
+    }
+    .vertical-desc{
+        position:relative;
+        top:86px;
+        color:blueviolet;
+        width:350px;
+        font-size:25px;
+        list-style: circle;
+
+    }
+
+    .thirdSection .thirdsec-h1{
+        /* display: flex; */
+        margin:0 70px;
+        padding:43px;
+        
+        
+    }
+    .fourthSection .thirdsec-h1{
+        /* display: flex; */
+        margin:0 70px;
+        padding:43px;
+    }
+    .edu {
+        display:flex;
+        width:100%;
+        justify-content: space-around;
+        margin:0 5px;
+        /* padding:50px; */
+    }
+    .skill {
+        display:flex;
+        /* width:100%; */
+        justify-content:center;
+        text-align: center;
+         margin:0 7px; 
+        padding:50px;
+
+    }
+    .edu .education-ul{
+       
+        margin:10px;
+        display: flex;
+        
+    }
+    .skill .skill-ul{
+        margin:10px;
+        /* display: flex; */
+        width:49%;
+        
+    }
+    .edu .education-li{
+        width:30%;
+        margin:10px;
+        /* display: flex; */
+        list-style: none;
+        background-color:#9c97f1;
+        border-color: black;
+        border-radius: 10px;
+        padding:10px;
+        
+        
+    }
+    .skill .skill-li{
+        width:58%;
+        margin:10px;
+        /* display: flex; */
+        list-style: none;
+        background-color:#9c97f1;
+        border-color: black;
+        border-radius: 10px;
+        padding:10px;
+    }
+    .fifthSection{
+        width:80%;
+        margin:5px 150px;
+        border-color: #9c97f1;
+        text-align: center;
+        border:2px solid;
+        padding: 40px;
+        justify-content: center;
+    }
+    main hr{
+        border:0;
+        background:#9c97f1;
+        height:1.2px;
+        margin:40px 84px;
+    }
+    .textgray{
+        color:gray;
+    }
+footer {
+    /* display: flex; */
+    background-color: rgb(18, 18, 62);
+    /* height: 233px; */
+    width:98%;
+}
+.footer-first{
+    padding:20px 100px;
+    font-size: x-large;
+}
+.footer-second{
+    /* display:inline-flex; */
+    padding:20px 100px;
+    justify-content: space-evenly;
+}
+.footer-third{
+    display:inline-flex;
+    padding:20px 100px;
+    /* justify-content: space-evenly; */
+}
+.footer ul{
+    list-style: none;
+}
+footer .footer-right{
+   text-align: center; 
+   color:gray;
+   padding:12px 0;
+}
+.footer-second .button-footer{
+    width:200px;
+    border-color:#9c97f1;
+    border:2px solid gray;
+    background-color:none;
+    padding:10px;
+
+}
+.footer-second .button-footer:hover{
+    width:200px;
+    /* border-color:#f4f3ff; */
+    border:2px solid gray;
+    color:#9c97f1;
+    padding:10px;
+}
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="left">Masum's Portfolio</div>
+            <div class="right">
+                <ul>
+                   <a href="home.html"><li>Home</li></a>
+                   <a href="work.html"> <li>Work Experience</li></a>
+                   <a href="Edu.html"> <li>Education</li></a>
+                   <a href="skills.html"> <li>Skills</li></a>
+                   <a href="extra.html"> <li>Extra Activity</li></a>
+                   <a href="contact.html"> <li>Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                Hi,My Name is <span class="purple">Masum Verma</span>.
+               <div>I am web developer.</div> 
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+            <div class="rightSection">
+                <img src="girl dev.png"/>
+            </div>
+
+            
+        </section>
+        <hr>
+        <section id="work" class="secondSection" >
+            <span class="textgray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box" >
+                <div class="vertical" >
+                    <img class="image-top" src="girl dev.png" alt="">
+                    <div class="vertical-text">
+                        WordPress Developer 
+                        
+                    </div>
+                    <li class="vertical-desc">
+                        At Quantixtech Solution Pvt Ltd.<br/></li>
+                        <li class="vertical-desc">(27 Jul 2023-10 Aug 2023)</li>
+                        <li class="vertical-desc">Developing website using WordPress</li>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="girl dev.png" alt="">
+                    <div class="vertical-text">
+                        Software Engineer Intern </div>
+                    <li class="vertical-desc"> At Vistaura Infotech </li>
+                        <li class="vertical-desc">  (29 Jan 2024) </li>
+                        <li class="vertical-desc">
+                            Technology:ReactJs,ThreeJs</li>
+                            <li class="vertical-desc">Tool:Blender</li>
+                            <li class="vertical-desc"> Along with developing websites also made 3D animatation using Blender and ThreeJs
+                        </li>
+                    </li> 
+                
+                </div>
+                
+            </div>
+        </section>
+        <hr>
+            <section  id="education" class="thirdSection">
+                <h1 class="thirdsec-h1">Education</h1>
+                <div class="edu">
+                    <ul class ="education-ul">
+                        
+                    <li class="education-li" >
+                       <b> Graduation</b><br/><br/><br/>
+                        Sardar Vallabhbhai Patel Institute of Technology,Vasad<br/><br/>
+                        LY Computer Engineering Student<br/><br/>
+                        University: Gujarat Technological University<br/><br/>
+                        9.24 CGPA(till 7th semester)<br/><br/>
+
+                    </li>
+                    
+                    <li class="education-li" >
+                       <b>Higher Secondary</b> <br/><br/><br/>
+                         Krishna Science School,Jamnagar <br/><br/>
+                       Board: GSHSEB <br/><br/>
+                       90.36 PR <br/>
+ 
+                     </li>
+
+                     <li class="education-li" >
+                        <b> Secondary</b><br/><br/><br/>
+                        Krishna Science School,Jamnagar<br/><br/>
+                        Board:GSEB<br/><br/>
+                        99.33 PR<br/>
+ 
+                     </li>
+
+                </ul></div>
+            </section> 
+<hr>
+            <section id="skills" class="fourthSection">
+                <div class="skill">
+                <ul class="skill-ul">
+                   <h1 style="text-align:left;">Skills</h1><br/><br/>
+                    <li class="skill-li" style="background-color:  #89ABE3;">
+                        HTML <br/><br/>
+                        CSS<br/><br/>
+                        JavaScript<br/><br/>
+                        ReactJs<br/><br/>
+                        ThreeJs<br/><br/>
+                        PHP<br/><br/>
+                        C<br/><br/>
+                </li>
+                </ul>
+                <ul class="skill-ul" >
+                    <h1 style="text-align:left;">Other Skills</h1><br/><br/>
+                    
+                    <li class="skill-li" style="background-color:  #89ABE3;">
+                   
+                        WordPress<br/><br/>
+                   
+                    Blender<br/><br/>
+                    [Blender is 3D computer graphics software tool.]<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></li>
+                </ul></div>
+            </section>
+<hr>
+            <section id="extra" class="fifthSection">
+                <h1 style="font-size: xx-large;">Extra Activity</h1><br/><br/><br/>
+                <p style="font-size: x-large;">Participated in Google Cloud Facilitator Program.
+                    <br/> Also Earn some schwags from that.
+                    <br/><br/>
+                    Volunteering Experience in college Event.
+                </p>
+
+            </section>
+        
+    </main>
+    <br/> <br/> <br/> 
+    <footer>
+    <div class="footer">
+       <div class="footer-first">
+        <h3>Masum's Portfolio</h3>
+       </div> 
+       <div class="footer-second">
+        <h5>Contact Me</h5><br/><br/> 
+        <br/><button class="button-footer" style="background:#9c97f1;color:white"> Your Email </button>
+        <button class="button-footer" style="background:#9c97f1;color:white"> Send me </button>
+        <br/>
+       </div> 
+       <!-- <div class="footer-third"><ul>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+    </ul></div>  -->
+      
+       <div class="footer-right">
+
+        www.masumportfolio.com | All rights reserved | CopyRights | Privacy Policy 
+       </div>
+    </div>
+    </footer>
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Web Designer'],
+        typeSpeed: 50,
+      });
+    </script>   
+
+<script>
+    // Function to handle scrolling when a menu item is clicked
+    function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // Add click event listeners to menu items
+    document.addEventListener('DOMContentLoaded', function() {
+        var menuItems = document.querySelectorAll('nav ul li a');
+        menuItems.forEach(function(item) {
+            item.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default link behavior
+                var sectionId = item.getAttribute('href').substring(1); // Get section ID
+                scrollToSection(sectionId); // Scroll to the section
+            });
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
